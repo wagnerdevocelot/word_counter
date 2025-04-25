@@ -73,17 +73,3 @@ Para executar os testes:
 mix test
 ```
 
-## Licença
-
-[Adicionar informações de licença aqui]
-
-## Contribuição
-
-Contribuições são bem-vindas! Por favor, sinta-se à vontade para enviar um Pull Request.
-
-1. Fork o projeto
-2. Crie sua branch (`git checkout -b feature/nova-funcionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abra um Pull Request
-
