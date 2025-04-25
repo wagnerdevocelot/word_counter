@@ -1,6 +1,9 @@
 defmodule Main do
   def main do
     case System.argv() do
+      [] ->
+        IO.puts("Uso: mix run -e 'Main.main' -- caminho/para/arquivo.txt")
+
       [file_path] ->
         case WordCounter.count_words(file_path) do
           {:error, reason} ->
